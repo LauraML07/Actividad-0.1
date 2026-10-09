@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#2B2B2B">
+
     <ImageView
         android:id="@+id/myButtonAdd"
         android:layout_width="64dp"
         android:layout_height="64dp"
+        android:clickable="true"
+        android:focusable="true"
         android:src="@android:drawable/ic_input_add" />
 
     <ImageView
         android:id="@+id/myButtonEdit"
         android:layout_width="64dp"
         android:layout_height="64dp"
+        android:layout_marginTop="32dp"
+        android:clickable="true"
+        android:focusable="true"
         android:src="@android:drawable/ic_menu_edit" />
 
     <ImageView
         android:id="@+id/myButtonDel"
         android:layout_width="64dp"
         android:layout_height="64dp"
+        android:layout_marginTop="32dp"
+        android:clickable="true"
+        android:focusable="true"
         android:src="@android:drawable/ic_menu_delete" />
 
 </LinearLayout>
