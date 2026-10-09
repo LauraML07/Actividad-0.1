@@ -16,6 +16,7 @@ import com.example.actividad_01.ui.theme.Actividad01Theme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
         enableEdgeToEdge()
         setContent {
             Actividad01Theme {
@@ -45,3 +46,5 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+
+
